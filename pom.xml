@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>au.edu.unimelb.cis</groupId>
+    <groupId>io.github.eleanor-em</groupId>
     <artifactId>bagel</artifactId>
     <version>1.9.2</version>
     <packaging>jar</packaging>
@@ -34,9 +34,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public.git</connection>
-        <developerConnection>scm:git:ssh://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public.git</developerConnection>
-        <url>https://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public</url>
+        <connection>scm:git:git://github.com/eleanor-em/bagel.git</connection>
+        <developerConnection>scm:git:ssh://github.com/eleanor-em/bagel.git</developerConnection>
+        <url>https://github.com/eleanor-em/bagel</url>
     </scm>
 
     <build>
