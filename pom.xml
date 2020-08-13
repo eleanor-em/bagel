@@ -7,6 +7,7 @@
     <groupId>au.edu.unimelb</groupId>
     <artifactId>bagel</artifactId>
     <version>1.9.2</version>
+    <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
@@ -32,6 +33,12 @@
         </developer>
     </developers>
 
+    <scm>
+        <connection>scm:git:git://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public.git</connection>
+        <developerConnection>scm:git:ssh://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public.git</developerConnection>
+        <url>https://gitlab.eng.unimelb.edu.au/emcmurtry/bagel-public</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -39,6 +46,9 @@
                 <configuration>
                     <source>11</source>
                     <target>11</target>
+                    <excludes>
+                        <exclude>**/test/**/*</exclude>
+                    </excludes>
                 </configuration>
             </plugin>
         </plugins>
