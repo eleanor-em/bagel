@@ -5,4 +5,4 @@ It is designed to be used for SWEN20003 at the University of Melbourne, with the
 ## Build instructions
 The Maven project should simply work with `mvn package`.
 
-To run the tests, you'll need to comment out line 19 of `pom.xml` so that the test classes are compiled.
+To run the tests, you'll need to comment out line 50 of `pom.xml` so that the test classes are compiled.
